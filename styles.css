@@ -104,7 +104,7 @@ body {
 
 .checkerboard-side-borders::before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -117,12 +117,13 @@ body {
     background-size: 20px 20px;
     background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
     background-color: white;
-    z-index: 1;
+    z-index: 10;
+    pointer-events: none;
 }
 
 .checkerboard-side-borders::after {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -135,7 +136,8 @@ body {
     background-size: 20px 20px;
     background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
     background-color: white;
-    z-index: 1;
+    z-index: 10;
+    pointer-events: none;
 }
 
 .btn-primary {
