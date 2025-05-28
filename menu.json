@@ -6,8 +6,8 @@
   "hours": "Mon - Sat: 12pm - 7pm",
   "welcome": {
     "title": "Welcome! / Bienvenue!",
-    "description": "Step right up to Tasty Yummy Hot Dog! We're serving up the best hot dogs in Welland, with fresh fries, delicious poutine, and refreshing drinks. Check out our menu below!",
-    "description_french": "Venez découvrir Tasty Yummy Hot Dog! Nous servons les meilleurs hot-dogs de Welland, avec des frites fraîches, de la poutine délicieuse et des boissons rafraîchissantes. Découvrez notre menu ci-dessous!",
+    "description": "Step right up to Tasty Yummy Hot Dog! We're serving up the only foot long hot dogs in Welland, with fresh fries, delicious poutine, and refreshing drinks. Check out our menu below!",
+    "description_french": "Venez découvrir Tasty Yummy Hot Dog! Nous servons les seuls hot-dogs d'un pied de Welland, avec des frites fraîches, de la poutine délicieuse et des boissons rafraîchissantes. Découvrez notre menu ci-dessous!",
     "special_offer": "NO TAX!"
   },
   "events": {
