@@ -130,6 +130,7 @@ function generateMenuSections(menuData) {
             ${menuData.menu.map(item => `
                 <div class="menu-card">
                     <h3 class="menu-item-name">${item.item}</h3>
+                    <p class="menu-item-fr">${item.item_french}</p>
                     <p class="menu-item-price">${item.price}</p>
                 </div>
             `).join('')}

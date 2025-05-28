@@ -24,46 +24,57 @@
   "menu": [
     {
       "item": "One Foot Hot Dog",
+      "item_french": "Hot-Dog d'un Pied",
       "price": "$8"
     },
     {
       "item": "Jumbo Hot Dog",
+      "item_french": "Hot-Dog Jumbo",
       "price": "$5"
     },
     {
       "item": "Hot Dog",
+      "item_french": "Hot-Dog",
       "price": "$3"
     },
     {
       "item": "Corn Dog",
+      "item_french": "Chien de Maïs",
       "price": "$3"
     },
     {
       "item": "Pop Corn",
+      "item_french": "Maïs Soufflé",
       "price": "$3"
     },
     {
       "item": "Fries small",
+      "item_french": "Petites Frites",
       "price": "$3"
     },
     {
       "item": "Fries Large",
+      "item_french": "Grandes Frites",
       "price": "$7"
     },
     {
       "item": "Poutine",
+      "item_french": "Poutine",
       "price": "$8"
     },
     {
       "item": "Tea",
+      "item_french": "Thé",
       "price": "$1"
     },
     {
       "item": "Coffee",
+      "item_french": "Café",
       "price": "$1"
     },
     {
       "item": "Pops",
+      "item_french": "Boissons Gazeuses",
       "price": "$1.50"
     }
   ],
