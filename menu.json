@@ -1,0 +1,71 @@
+{
+  "restaurant_name": "Tasty Yummy Hot Dog",
+  "address": "459 East Main St, Welland",
+  "phone": "289-820-7175",
+  "email": "yummyhotdog07@hotmail.com",
+  "hours": "Mon - Sat: 12pm - 7pm",
+  "welcome": {
+    "title": "Welcome! / Bienvenue!",
+    "description": "Step right up to Tasty Yummy Hot Dog! We're serving up the best hot dogs in Welland, with fresh fries, delicious poutine, and refreshing drinks. Check out our menu below!",
+    "description_french": "Venez découvrir Tasty Yummy Hot Dog! Nous servons les meilleurs hot-dogs de Welland, avec des frites fraîches, de la poutine délicieuse et des boissons rafraîchissantes. Découvrez notre menu ci-dessous!",
+    "special_offer": "NO TAX!"
+  },
+  "events": {
+    "title": "Book Us For Your Event!",
+    "description": "Now booking Hot Dog Party Events! Call for details.",
+    "description_french": "Nous acceptons maintenant les réservations pour les événements festifs Hot Dog! Appelez pour plus de détails.",
+    "call_to_action": "📞 Call"
+  },
+  "footer": {
+    "contact_title": "Contact Us / Contactez-Nous:",
+    "copyright": "Tasty Yummy Hot Dog. All Rights Reserved.",
+    "tagline": "Website designed with ❤️"
+  },
+  "menu": [
+    {
+      "item": "One Foot Hot Dog",
+      "price": "$8"
+    },
+    {
+      "item": "Jumbo Hot Dog",
+      "price": "$5"
+    },
+    {
+      "item": "Hot Dog",
+      "price": "$3"
+    },
+    {
+      "item": "Corn Dog",
+      "price": "$3"
+    },
+    {
+      "item": "Pop Corn",
+      "price": "$3"
+    },
+    {
+      "item": "Fries small",
+      "price": "$3"
+    },
+    {
+      "item": "Fries Large",
+      "price": "$7"
+    },
+    {
+      "item": "Poutine",
+      "price": "$8"
+    },
+    {
+      "item": "Tea",
+      "price": "$1"
+    },
+    {
+      "item": "Coffee",
+      "price": "$1"
+    },
+    {
+      "item": "Pops",
+      "price": "$1.50"
+    }
+  ],
+  "notes": "Prices could be change anytime"
+}

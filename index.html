@@ -20,13 +20,8 @@
                     </a>
                 </div>
                 <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#hotdogs" class="nav-link">Hot Dogs</a>
-                        <a href="#fries" class="nav-link">Fries</a>
-                        <a href="#poutine-addons" class="nav-link">Poutine Add-ons</a>
-                        <a href="#extras" class="nav-link">Extras</a>
-                        <a href="#drinks" class="nav-link">Drinks</a>
-                        <a href="#combos" class="nav-link">Combos</a>
+                    <div id="desktop-nav" class="ml-10 flex items-baseline space-x-4">
+                        <!-- Navigation will be generated dynamically -->
                         <a href="#contact" class="nav-link">Contact</a>
                     </div>
                 </div>
@@ -40,195 +35,35 @@
             </div>
         </div>
         <div id="mobile-menu" class="md:hidden hidden bg-red-700">
-            <a href="#hotdogs" class="block nav-link text-center py-3">Hot Dogs</a>
-            <a href="#fries" class="block nav-link text-center py-3">Fries</a>
-            <a href="#poutine-addons" class="block nav-link text-center py-3">Poutine Add-ons</a>
-            <a href="#extras" class="block nav-link text-center py-3">Extras</a>
-            <a href="#drinks" class="block nav-link text-center py-3">Drinks</a>
-            <a href="#combos" class="block nav-link text-center py-3">Combos</a>
+            <!-- Mobile navigation will be generated dynamically -->
             <a href="#contact" class="block nav-link text-center py-3">Contact</a>
         </div>
     </header>
 
-    <section class="py-12 bg-yellow-50" style="background-color: #FFFBEB;">
+    <section id="welcome-section" class="py-12 bg-yellow-50" style="background-color: #FFFBEB;">
+        <!-- Welcome content will be generated dynamically -->
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div class="inline-block p-2 mb-4">
-                 <img src="https://placehold.co/150x100/E02B2B/FFD700?text=TASTY+YUMMY+HOT+DOG&font=luckiest-guy" alt="Tasty Yummy Hot Dog Logo Placeholder" class="mx-auto h-24" onerror="this.alt='Tasty Yummy Hot Dog Logo'; this.src='https://placehold.co/150x100/E02B2B/FFD700?text=Logo&font=luckiest-guy';">
+            <div class="text-center">
+                <p class="text-lg text-gray-600">Loading...</p>
             </div>
-            <h2 class="font-luckiest text-5xl text-red-600 mb-4">Welcome! / Bienvenue!</h2>
-            <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-                Step right up to Tasty Yummy Hot Dog! We're serving up the best hot dogs in Welland, with fresh fries, delicious poutine, and refreshing drinks. Check out our menu below!
-                <br><em>Venez découvrir Tasty Yummy Hot Dog! Nous servons les meilleurs hot-dogs de Welland, avec des frites fraîches, de la poutine délicieuse et des boissons rafraîchissantes. Découvrez notre menu ci-dessous!</em>
-            </p>
-            <div class="no-tax-banner mb-6">NO TAX!</div>
-            <p class="text-md text-gray-600 font-semibold">
-                <span class="font-luckiest text-red-500 text-xl">🕒</span> Mon - Sat: 12pm - 7pm <br>
-                <span class="font-luckiest text-red-500 text-xl">📍</span> 459 East Main Street - Welland, ON
-            </p>
         </div>
     </section>
 
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-
-        <section id="hotdogs" class="mb-16 scroll-mt-20">
-            <h2 class="section-title">🌭 Hot Dogs / Chiens Chauds 🌭</h2>
-            <p class="text-center text-gray-600 mb-8">Our signature hot dogs, grilled to perfection! / Nos hot-dogs signatures, grillés à la perfection!</p>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Regular Hot Dog</h3>
-                    <p class="menu-item-fr">Normal Chien Chaud</p>
-                    <p class="menu-item-price">$3.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Jumbo Hot Dog</h3>
-                    <p class="menu-item-fr">Gros Chien Chaud</p>
-                    <p class="menu-item-price">$5.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">12" Hot Dog</h3>
-                    <p class="menu-item-fr">Douze Pouce Chien Chaud</p>
-                    <p class="menu-item-price">$8.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Corn Dog</h3>
-                    <p class="menu-item-fr">Pogo</p>
-                    <p class="menu-item-price">$3.00</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="fries" class="mb-16 scroll-mt-20">
-            <h2 class="section-title">🍟 Fries / Frites 🍟</h2>
-            <p class="text-center text-gray-600 mb-8">Crispy, golden fries and our famous poutine! / Frites dorées et croustillantes et notre fameuse poutine!</p>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Small Fry</h3>
-                    <p class="menu-item-fr">Petite Frite</p>
-                    <p class="menu-item-price">$3.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Large Fry</h3>
-                    <p class="menu-item-fr">Grosse Frite</p>
-                    <p class="menu-item-price">$7.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Poutine</h3>
-                    <p class="menu-item-fr">Poutine</p>
-                    <p class="menu-item-price">$8.00</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="poutine-addons" class="mb-16 scroll-mt-20">
-            <h2 class="section-title">🧀 Poutine Add-ons / Ajouts de Poutine 🧀</h2>
-            <p class="text-center text-gray-600 mb-8">Make your poutine even tastier! / Rendez votre poutine encore plus savoureuse!</p>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Gravy</h3>
-                    <p class="menu-item-fr">Sauce</p>
-                    <p class="menu-item-price">$1.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Pulled Pork</h3>
-                    <p class="menu-item-fr">Porc Effiloché</p>
-                    <p class="menu-item-price">$1.00 <span class="text-sm text-gray-500">(price seems low, confirm)</span></p>
-                </div>
-                 <div class="menu-card">
-                    <h3 class="menu-item-name">Hot Dog (topping)</h3>
-                    <p class="menu-item-fr">Chien Chaud (garniture)</p>
-                    <p class="menu-item-price">$1.00 <span class="text-sm text-gray-500">(price seems low, confirm)</span></p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Cheese</h3>
-                    <p class="menu-item-fr">Fromage</p>
-                    <p class="menu-item-price">$1.00 <span class="text-sm text-gray-500">(price seems low, confirm)</span></p>
-                </div>
-            </div>
-        </section>
-
-        <section id="extras" class="mb-16 scroll-mt-20">
-            <h2 class="section-title">🍿 Extras 🍿</h2>
-            <p class="text-center text-gray-600 mb-8">More tasty treats! / Plus de délices!</p>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Pop Corn</h3>
-                    <p class="menu-item-fr">Maïs à éclater</p>
-                    <p class="menu-item-price">$3.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Chicken Burger</h3>
-                    <p class="menu-item-fr">Poulet Burger</p>
-                    <p class="menu-item-price">$5.00</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="drinks" class="mb-16 scroll-mt-20">
-            <h2 class="section-title">🥤 Drinks / Boissons 🥤</h2>
-            <p class="text-center text-gray-600 mb-8">Quench your thirst! / Étanchez votre soif!</p>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Soda Pops</h3>
-                    <p class="menu-item-fr">Boissons Gazeuses</p>
-                    <p class="menu-item-price">$1.50</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Water</h3>
-                    <p class="menu-item-fr">Aqua</p>
-                    <p class="menu-item-price">$1.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Tea</h3>
-                    <p class="menu-item-fr">Thé</p>
-                    <p class="menu-item-price">$1.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Coffee</h3>
-                    <p class="menu-item-fr">Café</p>
-                    <p class="menu-item-price">$1.00</p>
-                </div>
-                <div class="menu-card">
-                    <h3 class="menu-item-name">Hot Chocolate</h3>
-                    <p class="menu-item-fr">Chocolat Chaud</p>
-                    <p class="menu-item-price">$1.00</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="combos" class="mb-16 scroll-mt-20 bg-yellow-100 p-8 rounded-lg shadow-inner border-2 border-yellow-300">
-            <h2 class="section-title">🎉 Make A Combo / Faire un Combo 🎉</h2>
-            <p class="text-center text-gray-700 mb-4 text-xl">Get a great deal with our combo! / Profitez d'une excellente offre avec notre combo!</p>
+        <!-- Menu sections will be generated dynamically -->
+        <div id="menu-container">
+            <!-- Loading message -->
             <div class="text-center">
-                <p class="text-lg font-semibold text-red-600">For just <span class="font-luckiest text-3xl text-yellow-600">$6.50</span>, your combo includes:</p>
-                <ul class="list-disc inline-block text-left mt-4 text-gray-700 space-y-1">
-                    <li>Regular Hot Dog / Normal Chien Chaud</li>
-                    <li>Small Fry / Petite Frite</li>
-                    <li>Water or Soda Pop / Aqua ou Boisson Gazeuse</li>
-                </ul>
+                <p class="text-lg text-gray-600">Loading menu...</p>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer id="contact" class="bg-red-700 text-white pt-12 pb-8 scroll-mt-20">
+        <!-- Footer content will be generated dynamically -->
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="font-luckiest text-4xl text-yellow-400 mb-6">Book Us For Your Event!</h2>
-            <p class="text-xl mb-8 max-w-xl mx-auto">
-                Now booking Hot Dog Party Events! Call for details. <br>
-                <em>Nous acceptons maintenant les réservations pour les événements festifs Hot Dog! Appelez pour plus de détails.</em>
-            </p>
-            <a href="tel:289-213-7903" class="btn-primary inline-block mb-8">📞 Call 289-213-7903</a>
-
-            <div class="mb-6">
-                <p class="font-semibold text-lg">Contact Us / Contactez-Nous:</p>
-                <p><a href="tel:289-213-7903" class="hover:text-yellow-300">📞 289-213-7903</a></p>
-                <p><a href="mailto:YUMMYHOTDOG07@HOTMAIL.COM" class="hover:text-yellow-300">📧 YUMMYHOTDOG07@HOTMAIL.COM</a></p>
-                <p class="mt-2">📍 459 East Main Street - Welland, ON</p>
-                <p>🕒 Mon - Sat: 12pm - 7pm</p>
-            </div>
-
-            <div class="mt-8 border-t border-red-500 pt-6">
-                <p class="text-sm">&copy; <span id="currentYear"></span> Tasty Yummy Hot Dog. All Rights Reserved.</p>
-                <p class="text-xs mt-1">Website designed with ❤️</p>
+            <div class="text-center">
+                <p class="text-lg text-gray-300">Loading...</p>
             </div>
         </div>
     </footer>
