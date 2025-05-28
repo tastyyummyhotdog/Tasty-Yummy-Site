@@ -173,3 +173,11 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 0.75rem; /* Smaller font size for mobile */
+        padding: 0.5rem; /* Slightly reduced padding for mobile */
+    }
+}
