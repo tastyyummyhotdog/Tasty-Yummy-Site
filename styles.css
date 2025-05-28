@@ -180,4 +180,14 @@ html {
         font-size: 0.75rem; /* Smaller font size for mobile */
         padding: 0.5rem; /* Slightly reduced padding for mobile */
     }
+    
+    .section-title {
+        font-size: 1.75rem; /* Smaller font size for mobile (reduced from 2.25rem) */
+        margin-bottom: 1rem; /* Slightly reduced margin for mobile */
+    }
+    
+    /* Header title - override Tailwind classes for mobile */
+    header h1.font-luckiest {
+        font-size: 1.5rem !important; /* Smaller than text-3xl (1.875rem) for mobile */
+    }
 }
