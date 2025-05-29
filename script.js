@@ -77,7 +77,7 @@ function generateFooter(menuData) {
         <div class="mb-6">
             <p class="font-semibold text-lg">${menuData.footer.contact_title}</p>
             <p><a href="mailto:${menuData.email}" class="hover:text-yellow-300">📧 ${menuData.email}</a></p>
-            <p class="mt-2">📍 ${menuData.address}</p>
+            <p class="mt-2">📍 <a href="https://maps.google.com/?q=459+E+Main+St,+Welland,+ON+L3B+3X7" target="_blank" class="hover:text-yellow-300">${menuData.address}</a></p>
             <p>🕒 ${menuData.hours}</p>
         </div>
 
@@ -103,7 +103,7 @@ function generateMenuSections(menuData) {
         <div class="grid md:grid-cols-3 gap-4 text-center">
             <div>
                 <p class="text-gray-700"><span class="font-semibold text-red-600">📍</span></p>
-                <p class="text-gray-700">${menuData.address}</p>
+                <p class="text-gray-700"><a href="https://maps.google.com/?q=459+E+Main+St,+Welland,+ON+L3B+3X7" target="_blank" class="hover:text-red-600">${menuData.address}</a></p>
             </div>
             <div>
                 <p class="text-gray-700"><span class="font-semibold text-red-600">📞</span></p>
