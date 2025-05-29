@@ -48,13 +48,14 @@ function generateWelcomeSection(menuData) {
     
     container.innerHTML = `
         <div class="inline-block p-2 mb-4">
-             <img src="images/Logo.svg" alt="${menuData.restaurant_name} Logo" class="mx-auto h-24" onerror="this.alt='${menuData.restaurant_name} Logo'; this.src='https://placehold.co/150x100/E02B2B/FFD700?text=Logo&font=luckiest-guy';">
+             <img src="images/Logo.svg" alt="${menuData.restaurant_name} Logo" class="mx-auto h-32 md:h-40" onerror="this.alt='${menuData.restaurant_name} Logo'; this.src='https://placehold.co/200x133/E02B2B/FFD700?text=Logo&font=luckiest-guy';">
         </div>
         <h2 class="font-luckiest text-5xl text-red-600 mb-4">${menuData.welcome.title}</h2>
-        <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-            ${menuData.welcome.description}
-            <br><em>${menuData.welcome.description_french}</em>
-        </p>
+        <div class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto bilingual-container">
+            <span class="english-text">${menuData.welcome.description}</span>
+            <div class="language-separator"></div>
+            <span class="french-text">${menuData.welcome.description_french}</span>
+        </div>
         <div class="no-tax-banner mb-6">${menuData.welcome.special_offer}</div>
     `;
 }
@@ -66,16 +67,17 @@ function generateFooter(menuData) {
     
     container.innerHTML = `
         <h2 class="font-luckiest text-4xl text-yellow-400 mb-6">${menuData.events.title}</h2>
-        <p class="text-xl mb-8 max-w-xl mx-auto">
-            ${menuData.events.description} <br>
-            <em>${menuData.events.description_french}</em>
-        </p>
+        <div class="text-xl mb-8 max-w-xl mx-auto bilingual-container">
+            <span class="english-text">${menuData.events.description}</span>
+            <div class="language-separator"></div>
+            <span class="french-text">${menuData.events.description_french}</span>
+        </div>
         <a href="tel:${menuData.phone}" class="btn-primary inline-block mb-8">${menuData.events.call_to_action} ${menuData.phone}</a>
 
         <div class="mb-6">
             <p class="font-semibold text-lg">${menuData.footer.contact_title}</p>
             <p><a href="mailto:${menuData.email}" class="hover:text-yellow-300">📧 ${menuData.email}</a></p>
-            <p class="mt-2">📍 ${menuData.address}</p>
+            <p class="mt-2">📍 <a href="https://maps.google.com/?q=459+E+Main+St,+Welland,+ON+L3B+3X7" target="_blank" class="hover:text-yellow-300">${menuData.address}</a></p>
             <p>🕒 ${menuData.hours}</p>
         </div>
 
@@ -101,7 +103,7 @@ function generateMenuSections(menuData) {
         <div class="grid md:grid-cols-3 gap-4 text-center">
             <div>
                 <p class="text-gray-700"><span class="font-semibold text-red-600">📍</span></p>
-                <p class="text-gray-700">${menuData.address}</p>
+                <p class="text-gray-700"><a href="https://maps.google.com/?q=459+E+Main+St,+Welland,+ON+L3B+3X7" target="_blank" class="hover:text-red-600">${menuData.address}</a></p>
             </div>
             <div>
                 <p class="text-gray-700"><span class="font-semibold text-red-600">📞</span></p>
@@ -125,12 +127,16 @@ function generateMenuSections(menuData) {
     
     menuSection.innerHTML = `
         <h2 class="section-title">🍽️ Our Menu / Notre Menu 🍽️</h2>
-        <p class="text-center text-gray-600 mb-8">Fresh and delicious food made to order! / Des plats frais et délicieux préparés sur commande!</p>
+        <div class="text-center text-gray-600 mb-8 bilingual-container">
+            <span class="english-text">Fresh and delicious food made to order!</span>
+            <div class="language-separator"></div>
+            <span class="french-text">Des plats frais et délicieux préparés sur commande!</span>
+        </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="menu-items">
             ${menuData.menu.map(item => `
                 <div class="menu-card">
                     <h3 class="menu-item-name">${item.item}</h3>
-                    <p class="menu-item-fr">${item.item_french}</p>
+                    ${item.item_french ? `<p class="menu-item-fr">${item.item_french}</p>` : ''}
                     <p class="menu-item-price">${item.price}</p>
                 </div>
             `).join('')}

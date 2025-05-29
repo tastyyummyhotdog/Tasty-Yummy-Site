@@ -51,19 +51,23 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     color: #B91C1C;
+    margin-bottom: 0.25rem;
 }
 
 .menu-item-fr {
     font-size: 0.875rem;
     color: #4B5563;
     font-style: italic;
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+    border-top: 1px solid #E5E7EB;
 }
 
 .menu-item-price {
     font-size: 1.5rem;
     font-family: 'Luckiest Guy', cursive;
     color: #EAB308;
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
 }
 
 /* Red and white checkerboard border patterns */
@@ -174,6 +178,33 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Bilingual text styling */
+.bilingual-container {
+    text-align: center;
+}
+
+.english-text {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.french-text {
+    display: block;
+    font-style: italic;
+    color: #6B7280;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #E5E7EB;
+}
+
+.language-separator {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(to right, #DC2626, #EAB308);
+    margin: 0.75rem auto;
+    opacity: 0.6;
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
     .nav-link {
@@ -189,5 +220,20 @@ html {
     /* Header title - override Tailwind classes for mobile */
     header h1.font-luckiest {
         font-size: 1.5rem !important; /* Smaller than text-3xl (1.875rem) for mobile */
+    }
+    
+    /* Bilingual text adjustments for mobile */
+    .bilingual-container .english-text,
+    .bilingual-container .french-text {
+        font-size: 0.875rem; /* Slightly smaller text on mobile */
+    }
+    
+    .language-separator {
+        width: 40px; /* Shorter separator on mobile */
+        margin: 0.5rem auto; /* Reduced margin */
+    }
+    
+    .menu-item-fr {
+        font-size: 0.75rem; /* Even smaller French text on mobile */
     }
 }
