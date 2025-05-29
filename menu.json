@@ -5,7 +5,7 @@
   "email": "info@tastyyummy.ca",
   "hours": "Mon - Sat: 12pm - 7pm",
   "welcome": {
-    "title": "Welcome! / Bienvenue!",
+    "title": "Bienvenue!, Welcome!",
     "description": "Step right up to Tasty Yummy Hot Dog! We're serving up the only foot long hot dogs in Welland, with fresh fries, delicious poutine, and refreshing drinks. Check out our menu below!",
     "description_french": "Venez découvrir Tasty Yummy Hot Dog! Nous servons les seuls hot-dogs d'un pied de Welland, avec des frites fraîches, de la poutine délicieuse et des boissons rafraîchissantes. Découvrez notre menu ci-dessous!",
     "special_offer": "NO TAX!"
@@ -17,9 +17,9 @@
     "call_to_action": "📞 Call"
   },
   "footer": {
-    "contact_title": "Contact Us / Contactez-Nous:",
+    "contact_title": "Contact Us|Contactez-Nous:",
     "copyright": "Tasty Yummy Hot Dog. All Rights Reserved.",
-    "tagline": "Website designed with ❤️"
+    "tagline": "Website designed with ❤️ by Gregm.ca"
   },
   "menu": [
     {
@@ -38,8 +38,8 @@
       "price": "$3"
     },
     {
-      "item": "Corn Dog",
-      "item_french": "Chien de Maïs",
+      "item": "POGO Stick",
+      "item_french": "Bâtonnet POGO",
       "price": "$3"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "item": "Poutine",
-      "item_french": "Poutine",
+      "item_french": "",
       "price": "$8"
     },
     {
